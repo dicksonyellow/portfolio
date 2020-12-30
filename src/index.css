@@ -4,7 +4,7 @@
 
 .font-sans {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 00;
 }
 
 .prose img {
@@ -13,6 +13,72 @@
   border-radius: 0.35em;
 }
 
-.home-name {
-  font-size: 4.25em;
+.bg-color {
+  background-color: #333333;
+}
+
+.bg-color-a {
+  background-color: #0e0d0ce9;
+}
+
+.bg-img {
+  background-image: url(./abstract.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 640px) {
+  .s-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 375px;
+    padding: 0 1em;
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 640px;
+    padding: 0 1.5em;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding: 0 1.75em;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 2.25em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 2.5em;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+    padding: 0 2.75em;
+  }
 }

@@ -35,6 +35,14 @@ export default {
             type: "url",
         }, 
         {
+            name: 'featureImage',
+            title: 'Feature image',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        {
             name: "tags",
             type: "array",
             of: [
