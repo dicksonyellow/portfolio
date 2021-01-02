@@ -32,22 +32,21 @@ export default function Project() {
 
             <section 
                 className="container mx-auto items-center justify-around min-h-screen">
-                <h1 
-                    className="text-4xl text-white font-bold font-sans leading-none lg:leading-snug mx-3 py-10 text-white flex justify-center">
-                    My Projects</h1>
-                <p 
-                    className="text-lg pb-10 text-gray-300 flex justify-center text-center font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
 
-                <section className="border-solid border-l-8 border-gray-700 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 mx-auto w-4/5 md:w-full mb-20">
+                <h1 
+                    className="pb-20 pt-40 text-4xl text-white text-center font-bold font-sans leading-none lg:leading-snug mx-3 text-white flex justify-center">
+                    Finished Projects</h1>
+
+                <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mx-auto w-4/5 md:w-full mb-20 pb-10">
                     {projectData && projectData.map((project, index) => (
-                    <article className="rounded-r-lg shadow-xl bg-color-a p-10 flex flex-col items-start justify-around ">
+                    <article className="rounded-r-lg shadow-xl bg-color-a p-10 flex flex-col items-start justify-around border-solid border-l-8 border-gray-700 ">
                         <img 
                         src={project.featureImage.asset.url} 
                         alt={project.featureImage.alt}
                         className="w-full h-60 object-cover-top pb-5"
                         />
                         <div>
-                            <h3 className="text-yellow-300 text-2xl font-bold mb-2 hover:text-white">
+                            <h3 className="text-gray-400 text-2xl font-bold mb-2 hover:text-white">
                                 <a
                                 href={project.link}
                                 alt={project.title}
@@ -87,12 +86,12 @@ export default function Project() {
 
             <section className="bg-black py-5 border-solid border-t-2 border-gray-800">
                 <div className="container mx-auto flex items-center justify-between">
-                <p className="text-base text-yellow-300 font-medium font-sans">Dickson Esieba</p>
+                <p className="text-base text-white font-medium font-sans">Dickson Esieba</p>
 
                 <div className="inline-flex py-2">
                     <SocialIcon 
                         url="https://github.com/dicksonyellow"  
-                        className="mr-4" 
+                        className="mx-2" 
                         target="_blank" 
                         fgColor="#000" 
                         bgColor="#F0C907"                    
@@ -100,7 +99,7 @@ export default function Project() {
                     />
                     <SocialIcon 
                         url="https://www.behance.net/dicksonesieba"  
-                        className="mr-4" 
+                        className="mx-2" 
                         target="_blank" 
                         fgColor="#000" 
                         bgColor="#F0C907"
@@ -108,7 +107,7 @@ export default function Project() {
                     />
                     <SocialIcon 
                         url="https://www.linkedin.com/in/dickson-esieba/"  
-                        className="mr-4 " 
+                        className="mx-2" 
                         target="_blank" 
                         fgColor="#000" 
                         bgColor="#F0C907"                    
