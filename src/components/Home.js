@@ -61,7 +61,7 @@ export default function Home() {
                     <div>
                         <div className="flex flex-col lg:flex-row items-center justify-between pb-32">
                             <p className="text-lg lg:mr-5 text-gray-300 font-sans py-3 w-full" > <span className="text-4xl font-bold text-yellow-300 mr-2">Hi!</span> I am Dickson Esieba, a Web Designer and Developer striving to create meaningful web experiences. Although I recently started doing this professionally, designing and coding have been my passion since the days I started working with computers.</p>
-                            <p className="text-lg mx-3 text-gray-300 font-sans py-3 w-full lg:mx-5">My focus is to work with <span className="text-yellow-300">small businesses</span> in helping them achieve their digital goals. I understand their pain points because I have experience and a strong background in Business and Economics.</p>
+                            <p className="text-lg mx-3 text-gray-300 font-sans py-3 w-full lg:mx-5">My focus is to work with <span className="text-yellow-300"> businesses</span> in helping them achieve their digital goals. I understand their pain points because I have experience and a strong background in Business and Economics.</p>
                             <p className="text-lg mx-3 text-gray-300 font-sans py-3 w-full lg:ml-5">This knowledge coupled with my love for creating beautifully designed, intuitive and functional websites are the values I bring to the table. </p>
                         </div>
                         

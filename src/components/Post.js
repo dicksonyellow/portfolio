@@ -31,10 +31,10 @@ export default function Post() {
 
             <h1 
                 className="pt-40 pb-5 text-4xl text-white text-center font-bold font-sans leading-none lg:leading-snug mx-3 text-white flex justify-center">
-                Ongoing Projects</h1>
+                Case Studies</h1>
                 <h2 
                 className="pb-2 text-xl text-yellow-300 text-center font-light tracking-wide font-sans mx-3 flex justify-center pb-20">
-                Also includes most recent projects.</h2>
+                Also includes ongoing projects.</h2>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 pb-32 gap-8">
                     {postData && postData.map((post, index) => (
