@@ -35,7 +35,7 @@ export default function Project() {
 
                 <h1 
                     className="pb-20 pt-40 text-4xl text-white text-center font-bold font-sans leading-none lg:leading-snug mx-3 text-white flex justify-center">
-                    Finished Projects</h1>
+                    Websites</h1>
 
                 <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mx-auto w-4/5 md:w-full mb-20 pb-10">
                     {projectData && projectData.map((project, index) => (
@@ -71,7 +71,7 @@ export default function Project() {
                                 <span><p className="my-4 text-lg text-gray-300 leading-relaxed">{project.description}</p>
                                 </span>
                                 <span>
-                                    <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-yellow-300 font-bold hover:underline hover:text-white">
+                                    <a href={project.link} rel="noopener noreferrer" target="_blank" className="txt-col-bluish font-bold hover:underline hover:text-white">
                                         View The Project {""}
                                     <span role="img" aria-label="right pointer">👉</span>
                                     </a>

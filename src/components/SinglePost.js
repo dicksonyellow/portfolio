@@ -38,7 +38,7 @@ export default function SinglePost() {
     return (
         <main className="bg-img">
             <div className="container mx-auto items-center justify-around min-h-screen">
-                <article className="container shadow-lg mx-auto bg-gray-700 bg-opacity-50 rounded-lg">
+                <article className="container shadow-lg mx-auto bg-gray-200 bg-opacity-50 rounded-lg">
                     <header className="relative">
                         <div className="absolute h-full w-full flex items-center justify-center p-8">
                             <div className="bg-black bg-opacity-75 rounded p-12">

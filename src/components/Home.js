@@ -8,13 +8,10 @@ export default function Home() {
                 className="container mx-auto flex items-center justify-around min-h-screen w-full"
                 >
 
-                <div className="container">
+                <div className="">
                     <h1 
                         className="pt-40 pb-5 text-4xl text-white text-center font-bold font-sans leading-none lg:leading-snug mx-3 text-white flex justify-center">
-                        Welcome To My World</h1>
-                        <h2 
-                        className="pb-2 text-xl text-yellow-300 text-center font-light tracking-wide font-sans mx-3 flex justify-center">
-                        Contact me if you like what you see.</h2>
+                        Hi, I am Dickson Esieba</h1>
                     <p 
                         className="text-md text-gray-300 text-center font-medium font-sans mx-3 flex justify-center tracking-wider">esiebadickson89@gmail.com</p>
                     <p 
@@ -53,16 +50,15 @@ export default function Home() {
                             rel="noopener noreferrer"
                             className="inline-flex items-center pb-10 my-2">
                             <h2
-                                className="text-yellow-300 inline-flex items-center px-3 rounded hover:text-white font-bold font-sans"
+                                className="txt-col-bluish inline-flex items-center px-3 rounded hover:text-white font-bold font-sans lg:text-xl"
                                 >&lt; Back My Main Page</h2>
                             </a>
                         </div>
 
                     <div>
                         <div className="flex flex-col lg:flex-row items-center justify-between pb-32">
-                            <p className="text-lg lg:mr-5 text-gray-300 font-sans py-3 w-full" > <span className="text-4xl font-bold text-yellow-300 mr-2">Hi!</span> I am Dickson Esieba, a Web Designer and Developer striving to create meaningful web experiences. Although I recently started doing this professionally, designing and coding have been my passion since the days I started working with computers.</p>
-                            <p className="text-lg mx-3 text-gray-300 font-sans py-3 w-full lg:mx-5">My focus is to work with <span className="text-yellow-300"> businesses</span> in helping them achieve their digital goals. I understand their pain points because I have experience and a strong background in Business and Economics.</p>
-                            <p className="text-lg mx-3 text-gray-300 font-sans py-3 w-full lg:ml-5">This knowledge coupled with my love for creating beautifully designed, intuitive and functional websites are the values I bring to the table. </p>
+                            <p className="text-gray-300 font-sans py-3 lg:mr-5 lg:text-xl">I am a creative person who loves technology. I have an interest in Agile Project Management, Digital Marketing, Front-End Web Development, and User Experience (UX) Design. I expect and desire to work in an environment that facilitates career and personal development and be part of a team with members of diverse backgrounds. My core values are <span className="text-yellow-300">Creativity, Dedication, Responsibility, and Integrity.</span></p>
+                            <p className="text-gray-300 font-sans py-3 lg:ml-5 lg:text-xl">My major career goal is to become a <span className="text-yellow-300">Project Management expert within the IT-sphere.</span> To achieve this, I plan to adopt a combination of technology, creativity, and my knowledge of business and management to implement meaningful projects that solve customer problems. I understand that it is important for me to focus on enhancing productivity, efficiency, and personal development to be successful. </p>
                         </div>
                         
                     </div>

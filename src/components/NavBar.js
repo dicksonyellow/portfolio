@@ -30,7 +30,7 @@ export default function NavBar() {
                     className="text-white inline-flex items-center py-3 px-3 my-2 rounded hover:text-yellow-300 font-sans"
                     activeClassName="text-yellow-300 font-bold font-sans"
                     >
-                    Finished
+                    Websites
                 </NavLink>
             </nav>
         </div>
