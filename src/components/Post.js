@@ -31,7 +31,7 @@ export default function Post() {
 
             <h1 
                 className="pt-40 pb-20 text-4xl text-white text-center font-bold font-sans leading-none lg:leading-snug mx-3 text-white flex justify-center">
-                Case Studies</h1>
+                UX Design</h1>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 pb-32 gap-8">
                     {postData && postData.map((post, index) => (
